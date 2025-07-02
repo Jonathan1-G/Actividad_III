@@ -17,9 +17,9 @@ namespace Actividad_III
         int Contador = 0;
        
         
-        void AgregarAlumnos()
+        void AgregarAlumnos() // hell0
         {
-            if (ExisteRegistro())
+            if (ExisteRegistro()) // Hola que tal 
             {
                 return; //De tiene la ejecución si el numero de cuenta ya existe
             }
