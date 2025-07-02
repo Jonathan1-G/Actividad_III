@@ -17,7 +17,7 @@ namespace Actividad_III
         int Contador = 0;
        
         
-        void AgregarAlumnos() // hell0
+        void AgregarAlumnos() 
         {
             if (ExisteRegistro()) // Hola que tal 
             {
@@ -28,7 +28,7 @@ namespace Actividad_III
             if (MessageBox.Show("Esta seguro de guardar el registro", "Sistema", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1)==DialogResult.Yes)
             {
                
-                Alumnos[Contador, 0] = txtNumcuenta.Text;
+                Alumnos[Contador, 0] = txtNumcuenta.Text; 
                 Alumnos[Contador, 1] = txtNomCompleto.Text;
                 Alumnos[Contador, 2] = DtpNacimiento.Value.Date.ToString();
                 Alumnos[Contador, 3] = txtCarrera.Text;
